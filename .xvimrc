@@ -1,0 +1,4 @@
+set incsearch
+set hlsearch
+
+imap jj <ESC>
