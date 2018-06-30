@@ -1,0 +1,4 @@
+.vim/bundle/
+.vim/colors/
+.tmux/plugins/
+.DS_Store
