@@ -3,7 +3,7 @@
 # Homebrewで入れたvimを使うようにPATHを追加
 export PATH="/usr/local/bin:$PATH"
 
-# stack installしたプログラムにPATHを通す
+# Stack install
 #export PATH="$HOME/.local/bin:$PATH"
 
 # Virtualenvwrapper
@@ -17,19 +17,19 @@ fi
 # CMake
 export PATH="/Applications/CMake.app/Contents/bin:$PATH"
 
-## pyenvのパスを通す
+## Pyenv
 #export PYENV_ROOT="$HOME/.pyenv"
 #export PATH="$PYENV_ROOT/bin:$PATH"
 #eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
 
-# nodebrewのパスを通す
+# Nodebrew
 #export PATH="$HOME/.nodebrew/current/bin:$PATH"
 #export NODEBREW_ROOT="/usr/local/var/nodebrew"
 #export PATH="$NODEBREW_ROOT/current/bin:$PATH"
 
-# gccloudのパスを通す
-#export PATH="$HOME/google-cloud-sdk/bin:$PATH"
+# Google cloud
+export PATH="$HOME/google-cloud-sdk/bin:$PATH"
 
-# .basrcを読み込む
+# Read .basrc
 source ~/.bashrc
