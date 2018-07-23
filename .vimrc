@@ -11,7 +11,7 @@ call vundle#begin()
 " プラグイン管理
 Plugin 'VundleVim/Vundle.vim'
 "" vimでインタラクティブシェルを使う
-"Plugin 'jpalardy/vim-slime'
+Plugin 'jpalardy/vim-slime'
 "" キーマップを早く
 Plugin 'rhysd/accelerated-jk'
 "" ファイルをツリー表示
@@ -51,12 +51,12 @@ filetype plugin indent on    " required
 "" --------------------
 "" vim-slime
 "" --------------------
-"
-"let g:slime_target = "tmux"
-"let g:slime_paste_file = "$HOME/.slime_paste"
-"let g:slime_default_config = {"socket_name": "default", "target_pane": ":.1"}
-"let g:slime_dont_ask_default = 1
-"
+
+let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/.slime_paste"
+let g:slime_default_config = {"socket_name": "default", "target_pane": ":.1"}
+let g:slime_dont_ask_default = 1
+
 " --------------------
 " accelerated-jk
 " --------------------
